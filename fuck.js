@@ -4,7 +4,7 @@ var importJs=document.createElement('script');
 	document.getElementsByTagName("head")[0].appendChild(importJs);
 setTimeout(fuck,1000);
 function fuck(){
-	$.get('https://www.heeeepin.com/json.php', function(data) {
+	$.get('https://raw.githubusercontent.com/ghosx/git/master/json.json', function(data) {
 		console.log("get data success");
 		var s = JSON.parse(data);
 		$('table[id$=DataGridA] tbody tr').each(function(index, el) {
